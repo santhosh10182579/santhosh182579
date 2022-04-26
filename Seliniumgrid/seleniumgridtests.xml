@@ -1,0 +1,9 @@
+<suite name = "seleniumgrid" parllel = "test">
+   <test>
+     <parameter name = "browser" value = "chrome"> </parameter>
+     <classes>
+   
+        <class name = "grid.gridadminlogin"></class>
+      </classes>   
+   </test>
+</suite>
